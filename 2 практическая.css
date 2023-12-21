@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
+    color: #e75f5f;
+    text-align: center;
+    padding: 10px;
+}
+
+    
+.container {
+    padding: 20px;
+    background-image:url(https://www.indy100.com/media-library/the-95-best-online-clothing-stores-in-the-us.jpg?id=28041069&width=1245&height=700&quality=85&coordinates=0%2C201%2C0%2C201) ;
+    background-size:100% ;
+    color: black;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 1;
+    width: 98.4%;
+}
+#menu {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#menu li {
+    display: inline;
+    margin: 0 10px;
+}
+.horizontal-line {
+    border-top: 2px solid #3618bb;
+    margin: 20px 0;
+    display: none;
+}
+.h2 {
+    color:red;
+    display: flex;
+    
+}
+address {
+    color:rgb(231, 228, 233);
+    position: absolute;
+    left : 100%;
+}
+.product {
+    width: 30%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+}
